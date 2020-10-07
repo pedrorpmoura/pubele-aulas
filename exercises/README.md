@@ -10,7 +10,7 @@ A partir desse ficheiro:
 
 2. Crie um programa Python que receba uma palavra como argumento, e: 
   - conte o número de ocorrências dessa palavra no ficheiro gerado anteriormente;
-  - retorna as linhas nas quais essa palavra está presente
+  - retorna as linhas nas quais essa palavra está presente.
 
 3. Crie um programa Python que crie uma nova diretoria, divida o ficheiro gerado em vários ficheiros alfabeticamente (um ficheiro contêm só as palavras que começam por 'a', etc.) e coloque-os nessa diretoria.
 
