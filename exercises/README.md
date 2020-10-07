@@ -15,3 +15,10 @@ A partir desse ficheiro:
 3. Crie um programa Python que crie uma nova diretoria, divida o ficheiro gerado em vários ficheiros alfabeticamente (um ficheiro contêm só as palavras que começam por 'a', etc.) e coloque-os nessa diretoria.
 
 4. Modifique o programa criado no ponto 2 de modo a realizar a procura não num ficheiro mas sim na diretoria.
+
+
+## Exercício 2
+
+## Exercício 3
+
+## Exercício 4
