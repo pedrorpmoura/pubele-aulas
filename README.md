@@ -73,7 +73,7 @@ ____
 
 #### Avaliação
 
-Teste + TP + tarefas
+Teste + TP + tarefas + algo
 
 
 
