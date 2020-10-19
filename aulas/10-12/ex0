@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+import sys
+
+largura = int(sys.argv[1])
+altura = int(sys.argv[2])
+print(("="* largura +"\n")*altura)
+

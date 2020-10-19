@@ -1,0 +1,23 @@
+
+
+def mk_tree(p,m1,p1,mm,mp,pm,pp):
+    return f"""
+<pre>
+    ⎧    ⎧ {mm}
+    ⎪ {m1}
+    ⎪    ⎩ {mp}
+{p}
+    ⎪    ⎧ {pm}
+    ⎪ {p1}
+    ⎩    ⎩ {pp}
+</pre>
+"""
+
+print(mk_tree("João da Silva Marques",
+      "Isabel da Silva Marques",
+      "Duarte Vasconcelos",
+      "António da Silva",
+      "Constança Maria ",
+      "Maria da Conceição Pereira",
+      "Duarte Moreita Pinto"))
+
