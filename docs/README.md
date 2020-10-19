@@ -1,5 +1,3 @@
-# Tutoriais
-
-# Material de apoio às aulas
-
 # Documentação
+
+* Python - https://docs.python.org/3/
