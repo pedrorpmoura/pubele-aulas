@@ -7,5 +7,5 @@
 ## Expressões Regulares
 
 **Links para interagirem com expressões regulares:**
-* https://regexr.com
+* https://regex101.com
 * https://regexone.com (tem exercícios)
