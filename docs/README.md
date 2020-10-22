@@ -7,4 +7,4 @@
 
 **Links para interagirem com expressões regulares:**
 * https://regexr.com
-* https://regexone.com
+* https://regexone.com (tem exercícios)
