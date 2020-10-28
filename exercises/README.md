@@ -18,6 +18,8 @@ A partir desse ficheiro:
 
 
 ## Exercício 2
+Normalmente, qualquer projeto é acompanhado por um relatório, com informações relativas ao mesmo.
+Neste exercício, pretende-se criar um documento XML estruturado que represente um relatório de projeto, e criar um processador que transforme este XML numa página HTML (válida), de forma a conseguir-se visualizar o relatório.
 
 ## Exercício 3
 
