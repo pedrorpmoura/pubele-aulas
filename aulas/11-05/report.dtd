@@ -1,0 +1,10 @@
+<!-- DTD report ... -->
+<!ELEMENT report (title|date|team|description)* >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT number (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT team (element)* >
+<!ELEMENT element (name|number|email)* >
