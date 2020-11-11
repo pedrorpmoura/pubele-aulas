@@ -1,0 +1,91 @@
+#!/usr/bin/python3
+
+from re import *
+import jinja2  as j2
+
+def refile(filename): 
+# lê ficheiro e devolve texto
+
+	with open(filename) as f:
+		report=f.read()
+
+	return report
+
+
+def extract_dict(l,report): 
+	"""   [tag], txt → {tag : xml}  
+recebe uma lista de tags e devolve um dicionário com a 
+info xml dessas tags """
+
+	info = {}
+	for elem in l:
+		v=search(rf"<{elem}>((?:.|\n)*?)</{elem}>",report)
+		if v:
+			info[elem]=v[1]
+
+	return info
+
+
+def extrai_listaH(xml,tag):
+	""" txt,tag → [xml]
+      extrai lista homogénea de elementos """
+
+	info = []
+
+	for miolo in findall(rf'<{tag}>((?:.|\n)*?)</{tag}>',xml):
+		info.append(miolo)
+
+	return info
+
+def preenche2(info):
+	""" gera html a partir de um dic. info 
+info : {title:str
+            date:str
+            team: { name:str, email:str }
+            description:str}
+"""
+
+	t = j2.Template( """
+<html>
+<head>
+  <title> {{title}} </title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+ <h1> {{title}} </h1>
+ <p> {{date}} </p>
+ <h2>Autores</h2>
+ <hr/>
+ <ol>
+    {% for el in team  %}
+      <li> {{el['name']}} : {{el['email']}} </li>
+    {% endfor %}
+ </ol>
+ <hr/>
+ <h2> Descrição </h2>
+ <p> {{description}} </p>
+</body>
+</html>
+
+""")
+
+	print(t.render(info))
+
+
+def main():
+	f = refile('report.xml') 
+	dic = extract_dict(['title','team','date','description'],f) 
+	aux = extrai_listaH(dic['team'],'element')
+
+	nova_lista = []
+	for el in aux:
+		res = extract_dict(['name','email'],el)
+		nova_lista.append(res)
+	dic['team'] = nova_lista
+	
+	preenche2(dic)
+	
+main()
+
+# nota: maneira concisa de substituir as ultimas 5 linhas
+#	dic['team'] = [extract_dict(['name','email'],el) for el in aux]

@@ -1,0 +1,29 @@
+<!-- DTD catalogo ... -->
+<!-- (C) ... Thu Aug 16 11:42:42 WEST 2001 -->
+<!ELEMENT catalogo (doc)* >
+<!ELEMENT resource (#PCDATA) >
+	<!-- xml:lang : ... -->
+	<!ATTLIST resource xml:lang CDATA #IMPLIED >
+	<!-- xml:format : ... -->
+	<!ATTLIST resource xml:format CDATA #IMPLIED >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+	<!-- xml:lang : ... -->
+	<!ATTLIST title xml:lang CDATA #IMPLIED >
+<!ELEMENT otherformat (#PCDATA) >
+	<!-- fmt : ... -->
+	<!ATTLIST otherformat fmt CDATA #IMPLIED >
+<!ELEMENT entrado (#PCDATA) >
+<!ELEMENT in (#PCDATA) >
+<!ELEMENT doc (resource|description|title|entrado|in|relations|format|author|version)* >
+<!ELEMENT relations (rel)* >
+<!ELEMENT rel (#PCDATA) >
+	<!-- type : ... -->
+	<!ATTLIST rel type CDATA #IMPLIED >
+<!ELEMENT format (otherformat)* >
+<!ELEMENT author (#PCDATA) >
+	<!-- email : ... -->
+	<!ATTLIST author email CDATA #IMPLIED >
+	<!-- role : ... -->
+	<!ATTLIST author role CDATA #IMPLIED >
+<!ELEMENT version (#PCDATA) >

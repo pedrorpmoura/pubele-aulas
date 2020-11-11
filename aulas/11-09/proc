@@ -1,0 +1,7 @@
+import lxml
+from bs4 import  BeautifulSoup as bs
+txt = open("catalogo.xml").read()
+
+ad=bs(txt)
+for ele in ad.find_all("rel"):
+    print(ele, ele["type"],ele.text)

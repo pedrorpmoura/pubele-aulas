@@ -1,0 +1,25 @@
+Generalizar o conversor relatórios → html de modo a que
+
+1) passe a permitir vários relatórios (presentemente
+só aceita um relatório): no XML juntar uma nova raíz
+por exemplo "portfolio" debaixo da qual fiquem os vários
+"report".
+Sugestão: 
+    * cada report gerar uma página html separada
+    * construir um índice geral que permita aceder
+à página de cada projecto.
+
+2) permita a existência de um novo elemento com o link 
+para um ficheiro
+(correspondente ao código do projecto)
+
+3) Extras: se conseguir, faça os extras que se lembrar!
+
+Sugestões:
+  * arrange uma página com bom aspecto...
+  * crie um índice de autores.
+  * Permita que a description inclua "hashtags" (exemplo
+"#história") e crie uma página índice (hastag → reports)
+
+4) Faço um portfolio.xml exemplo (que seja convincente)
+para demonstração.
