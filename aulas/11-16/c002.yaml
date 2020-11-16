@@ -1,0 +1,21 @@
+---
+type: carta
+destinatário: Eurico Tomás de Lima
+remetente: Ludovina Frias de Matos
+data: 1965-10-21
+local_ori: Porto
+descrição: |
+   dá os parabens
+   por o novo cargo
+   ... n Madeira
+files:
+   - f1.jpg
+   - f3.jpg
+   - f4.jpg
+---
+type: foto
+descrição: |
+   foto de grupo com...
+infoto:
+   - Eurito Tomás de Lima
+   - rui
