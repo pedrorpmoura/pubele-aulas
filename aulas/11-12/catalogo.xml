@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogo>
+
+<doc> 
+  <title xml:lang="pt">Guia de Inquérito Musical Popular</title>
+  <author>Michel Giacometti</author>
+  <version>1975</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:07</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/giacom.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Giacometti.pdf</otherformat>
+  </format>
+  <description>
+      Calendário de cerimónias e tipo de música associada.
+      Lista de espécimes de música vocal e instrumental activas na vida religiosa - doméstica ou colectiva.
+      Mandamentos e gritos, pregões, ... relacionados com o trabalho.
+      Cantos lúdicos ou rituais ou de carácter social ou político.
+      Trechos instrumentais e danças populares.
+      Romances entoados no trabalho ou nos serões.
+  </description>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Pequeno Guia para a recolha de Instrumentos Musicais Populares</title>
+  <author>Ernesto Veiga de Oliveira</author>
+  <version>1975</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:07</entrado>
+  <resource xml:lang="pt" xml:format="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/ernesto.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Ernesto_Veiga_Oliveira.pdf</otherformat>
+  </format>
+  <description>
+    Distribuição regional dos instrumentos musicais populares.
+Instrumentos para marcar o ritmo e acompanhar a dança.
+Instrumentos de Semanda Santa, Carnaval, Serração da velha, Assuadas e troças.
+    Instrumentos de certas profissões.
+    Instrumentos de passatempo individual.
+    Instrumentos brinquedos
+  </description>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Da música e da dança, como formas de expressão 
+    espontâneas populares, aos ranchos folclóricos</title>
+  <author>Jorge Dias</author>
+  <version>1970</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Jorge_Dias.doc.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Jorge_Dias.pdf</otherformat>
+  </format>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">folclore</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Notas sobre a Música e Instrumentos Musicais Populares 
+      Portugueses </title>
+  <author>Domingos Morais</author>
+  <version>1995</version>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais1.doc.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais1.pdf</otherformat>
+  <otherformat fmt="Word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais1.doc</otherformat>
+  </format>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+    <rel type="ABOUT">história</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Música e Dança na África a Sul do Sahará</title>
+  <author>Gerhard Kubik</author>
+  <version>1981</version>
+  <author email="dmorais@ip.pt" role="tradução e digitalização"> Domingos Morais</author>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Kubik_African_Music_and_Dance.doc.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Kubik_African_Music_and_Dance.pdf</otherformat>
+  <otherformat fmt="Word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Kubik_African_Music_and_Dance.doc</otherformat>
+  </format>
+  <in>"Cultural Atlas of Africa", Oxford, 1981. pp. 90-93.</in>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">dança</rel>
+    <rel type="ABOUT">África</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Do gesto musical, gerador de identidade cultural, 
+                   catalizador da expressão pessoal</title>
+  <author>Domingos Morais</author>
+  <version>1997</version>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais2.doc.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais2.pdf</otherformat>
+  <otherformat fmt="Word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/DomingosMorais2.doc</otherformat>
+  </format>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">música</rel>
+    <rel type="ABOUT">pedagogia</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Em busca dum mundo perdido</title>
+  <author>Ernesto Veiga de Oliveira</author>
+  <version>1982</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt" xml:format="html">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/ErnestoVeigaOliveira-embusca.doc.html</resource>
+  <description>
+Uma série de histórias relacionadas com recolhas etnográficas de instrumentos e
+com a vivência de um Etnólogo com letra grande...
+  </description>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/ErnestoVeigaOliveira-embusca.pdf</otherformat>
+  <otherformat fmt="Word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/ErnestoVeigaOliveira-embusca.doc</otherformat>
+  <otherformat fmt="ps.gz">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/ErnestoVeigaOliveira-embusca.ps.gz</otherformat>
+  </format>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Breves Observações sobre a Música Popular Portuguesa</title>
+  <author>Michel Giacometti</author>
+  <version>1982</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">
+http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/giacometti-MPP.doc.html
+</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/giacometti-MPP.pdf</otherformat>
+  <otherformat fmt="ps.gz">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/giacometti-MPP.ps.gz</otherformat>
+  <otherformat fmt="word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/giacometti-MPP.doc</otherformat>
+  </format>
+  <in>Revista da JMP "Arte Musical", Número especial, por ocasião
+      da Quinzena de Etnomusicologia (Outubro de 1982), pp. 23 a 27.</in>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Breves Apontamentos sobre as Formas Musicais existentes 
+em Cabo Verde</title>
+  <author>Margarida Brito</author>
+  <version>1998</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:08</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/margaridaBrito-formascv.doc.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/margaridaBrito-formascv.pdf</otherformat>
+  <otherformat fmt="ps.gz">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/margaridaBrito-formascv.ps.gz</otherformat>
+  <otherformat fmt="word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/margaridaBrito-formascv.doc</otherformat>
+  </format>
+  <in>"Os Instrumentos Musicais em Cabo Verde", pp. 13 a 25, Ed. Centro Cultural
+Português / Praia - Mindelo (1998)</in>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">Cabo Verde</rel>
+    <rel type="ABOUT">mornas</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title>Algumas considerações gerais sobre formas de canto e dança em Moçambique</title>
+  <author>Margot Dias</author>
+  <version>1962</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:11</entrado>
+  <resource>http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Margot.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Margot.pdf</otherformat>
+  <otherformat fmt="ps.gz">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Margot.ps.gz</otherformat>
+  <otherformat fmt="word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/Margot.doc</otherformat>
+  </format>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">Moçambique</rel>
+    <rel type="ABOUT">dança</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Literatura popular: em torno de um conceito</title>
+  <author>Manuel Viegas Guerreiro</author>
+  <version>1986</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <entrado>1999:11</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/manuelViegasGuerreiro-literaturapop.html</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/manuelViegasGuerreiro-literaturapop.pdf</otherformat>
+  <otherformat fmt="ps.gz">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/manuelViegasGuerreiro-literaturapop.ps.gz</otherformat>
+  <otherformat fmt="word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/manuelViegasGuerreiro-literaturapop.doc</otherformat>
+  </format>
+  <in>"Litterature Orale Traditionnelle Populaire".  
+   Actes du Colloque, Paris 20-22 Nov. 1986. 
+   Paris, Fondation Calouste Gulbenkian - Centre Culturel Portugais, 1987.</in>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="POF">Cancioneiro</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">literatura popular</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Arquivos sonoros de Ernesto Veiga de Oliveira/Benjamim
+Pereira</title>
+  <author role="recolhas">Ernesto Veiga de Oliveira</author>
+  <author role="recolhas">Benjamim Pereira</author>
+  <version>1960/1963</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <author email="jj@di.uminho.pt" role="arquivo html"> José João Almeida</author>
+  <entrado>2000:09</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/ARQEVO</resource>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="IOF">arquivo</rel>
+    <rel type="self">arqevo</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">música popular</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Relato acerca da organização da colecção de Instrumentos
+Musicais Populares Portugueses</title>
+  <author>Benjamim Pereira</author>
+  <author role="digitalização">Domingos Morais</author>
+  <version>2000</version>
+  <entrado>2001:01</entrado>
+  <resource>http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/BPlivroEVO.doc.html</resource>
+  <format>
+  <otherformat fmt="ps">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/BPlivroEVO.ps</otherformat>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/BPlivroEVO.pdf</otherformat>
+  <otherformat fmt="word">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/BPlivroEVO.doc</otherformat>
+  </format>
+  <description>Neste precioso texto, Benjamim Pereira faz-nos um relato de 
+como nasceu o projecto de colecção de Intrumentos
+Musicais Populares portugueses e do livro associado; incluiu transcrição de 
+algumas cartas associadas e descrição de uma série de histórias pessoais
+que ajudam a entender a importância e envergadura destas tarefas...
+  </description>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">música popular</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+    <rel type="ABOUT">arqevo</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Recolha de Domingos Morais - arquivo DMWRD85</title>
+  <author role="recolhas">Domingos Morias</author>
+  <version>1985</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <author email="jj@di.uminho.pt" role="arquivo html"> José João Almeida</author>
+  <entrado>2001:04</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/arqdmwrd85</resource>
+  <description>Neste arquivo existem cerca de 202 fonogramas MP3 de música
+etnográfica de Trás-os-Montes, Alentejo, Beira e Minho, bem como a respectiva 
+informação associada (título, músicos, duração, local de registo, tipo), recolhida em 1987.
+  </description>                                   
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="IOF">arquivo</rel>
+    <rel type="self">arqdmwrd85</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">música popular</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+    <rel type="ABOUT">Trás-os-Montes</rel>
+    <rel type="ABOUT">Alentejo</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Recolha de Domingos Morais - arquivo DMWRD87</title>
+  <author role="recolhas">Domingos Morias</author>
+  <version>1985</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <author email="jj@di.uminho.pt" role="arquivo html"> José João Almeida</author>
+  <entrado>2001:04</entrado>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/arqdmwrd87</resource>
+  <description>Neste arquivo existem cerca de 202 fonogramas MP3 de música
+etnográfica Açoreana, e respectiva informação associada (título, músicos,
+duração, local de registo, tipo), recolhida em 1987.
+  </description>
+  <relations>
+    <rel type="IOF">artigo</rel>
+    <rel type="IOF">arquivo</rel>
+    <rel type="self">arqdmwrd87</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">etno-musicologia</rel>
+    <rel type="ABOUT">música popular</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+    <rel type="ABOUT">Açores</rel>
+  </relations>
+</doc>
+
+<doc> 
+  <title xml:lang="pt">Instrumentos Musicais Açores</title>
+  <author>Ernesto Veiga de Oliveira</author>
+  <author>Domingos Morais</author>
+  <version>2001</version>
+  <author email="dmorais@ip.pt" role="digitalização"> Domingos Morais</author>
+  <resource xml:lang="pt">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/IMPA_MUS.pdf</resource>
+  <format>
+  <otherformat fmt="pdf">http://alfarrabio.di.uminho.pt/cancioneiro/etnografia/IMPA_MUS.pdf</otherformat>
+  </format>
+  <description>Texto de 31 pgs contendo partituras de musica instrumental
+açorana. Este texto faz parte do "Instrumentos Musicais Populares Portugueses",
+e muitos das partituras referem-se a trechos que podem ser ouvidos no arquivo
+sonoro Ernesto Veiga Oliveira e no arquivo sonoro DMWRD87</description>
+  <relations>
+    <rel type="POF">Instrumentos Musicais Populares Portugueses</rel>
+    <rel type="IOF">Cancioneiro</rel>
+    <rel type="ABOUT">etnografia</rel>
+    <rel type="ABOUT">Açores</rel>
+    <rel type="ABOUT">partitura</rel>
+    <rel type="ABOUT">instrumentos musicais</rel>
+  </relations>
+</doc>
+</catalogo>
