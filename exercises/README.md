@@ -22,5 +22,6 @@ Normalmente, qualquer projeto é acompanhado por um relatório, com informaçõe
 Neste exercício, pretende-se criar um documento XML estruturado que represente um relatório de projeto, e criar um processador que transforme este XML numa página HTML (válida), de forma a conseguir-se visualizar o relatório.
 
 ## Exercício 3
+Crie um script Python que extraia tabelas de uma página HTML e as transforme em ficheiros CSV (Comma Separated Values).
 
 ## Exercício 4
