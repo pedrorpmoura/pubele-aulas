@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xdxf lang_from="POR" lang_to="ENG" format="logical" revision="033">
+    <meta_info>
+        <title>Dicionário Pt-En</title>
+        <full_title>Grande Dicionário Pt-En</full_title>
+        <file_ver>001</file_ver>
+        <creation_date>2020</creation_date>
+
+    </meta_info>
+    <lexicon>
+
+ 
+<ar>
+  <k>gato</k>
+  <def>ENG: cat</def>
+</ar>
+ 
+<ar>
+  <k>cão</k>
+  <def>ENG: dog</def>
+</ar>
+ 
+<ar>
+  <k>formiga</k>
+  <def>ENG: ant</def>
+</ar>
+ 
+<ar>
+  <k>pássaro</k>
+  <def>ENG: bird</def>
+</ar>
+ 
+<ar>
+  <k>abelha</k>
+  <def>ENG: bee</def>
+</ar>
+ 
+
+    </lexicon>
+</xdxf>
