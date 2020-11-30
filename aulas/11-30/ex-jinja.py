@@ -1,7 +1,6 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 import jinja2 as j2
-## t = t2.Template( open("template-xfdf").read() )
 t = j2.Template( """<?xml version="1.0" encoding="UTF-8" ?>
 <xdxf lang_from="{{l1}}" lang_to="{{l2}}" format="logical" revision="033">
     <meta_info>

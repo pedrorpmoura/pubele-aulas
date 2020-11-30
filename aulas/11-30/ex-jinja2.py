@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 import jinja2 as j2
 t = j2.Template( open("template-xdxf").read() )
