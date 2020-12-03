@@ -1,0 +1,6 @@
+
+import yaml
+
+with open("c002.yaml", 'r') as f:
+    for d in yaml.load_all(f):
+        print(d)
