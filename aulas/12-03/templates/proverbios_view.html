@@ -1,14 +1,16 @@
-<html>
-    <head>
-        <title>{{title}}</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <h1>{{title}}</h1>
-        <ul>
-            {% for p in proverbios %}
-                <li>{{p}}</li>
-            {% endfor %}
-        </ul>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+{% block head%}
+<title>{{title}}</title>
+{% endblock %}
+
+
+{% block body%}
+<h1>{{title}}</h1>
+<ul>
+    {% for p in proverbios: %}
+        <li><a href="/proverbios/proverbio/{{p['id']}}">{{p['title']}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
+

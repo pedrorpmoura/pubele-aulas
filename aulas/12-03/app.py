@@ -2,29 +2,27 @@ from flask import Flask, render_template
 
 import random
 
+from bd import proverbios, pessoas
+
 app = Flask(__name__)
-
-
-proverbios = [
-    'Mais vale tarde do que nunca.',
-    'Mês de abril, arroz de caril.',
-    'Quem vai à guerra dá e leva'
-]
-
-
-pessoas = [
-    'Pedro',
-    'Beatriz',
-    'Paulo'
-] 
 
 
 @app.route('/')
 def index():
+    return render_template('index.html')
+
+
+@app.route('/proverbios')
+def proverbios_view():
     return render_template('proverbios_view.html', title='Proverbios', proverbios=proverbios)
 
 
-@app.route('/semana')
+@app.route('/proverbios/proverbio/<id_>')
+def proverbio_view(id_):
+    return render_template('proverbio_view.html', p = proverbios[int(id_)])
+
+
+@app.route('/proverbios/semana')
 def semana():
     p = random.choice(proverbios)
     return render_template('proverbio_semana_view.html', proverbio=p)
