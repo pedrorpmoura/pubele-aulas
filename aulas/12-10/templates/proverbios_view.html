@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>{{title}}</title>
+{% endblock %}
+
+
+{% block body%}
+<h1>{{title}}</h1>
+<ul>
+    {% for p in proverbios: %}
+        <li><a href="/proverbios/proverbio/{{p}}">{{p}}</a></li>
+    {% endfor %}
+</ul>
+
+<hr>
+<h3>Adicionar provérbio</h3>
+<form action="proverbios/novo" method='post'>
+    <label>Título</label><br>
+    <input type="text" name="title"><br>
+    <label>Significado</label><br>
+    <input type="text" name="significado"><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
+

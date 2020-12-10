@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block head%}
+<title>{{title}}</title>
+{% endblock %}
+
+
+{% block body%}
+<h1>{{title}}</h1>
+<ul>
+    {% for p in pessoas %}
+        <li>{{p}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
