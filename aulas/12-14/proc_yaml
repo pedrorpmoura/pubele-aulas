@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import sys
+import yaml
+
+def proc_doc(d):
+    if d is not None:
+        print(f""" {d.get("id")} --> {d.get("remetente")}""")
+    else:
+        print("not ok")
+
+def proc_yaml_file(filename):
+   with open(filename) as f:
+      try: 
+          docs = yaml.safe_load_all(f)
+          for doc in docs:
+              print(doc)
+              proc_doc(doc)
+      except yaml.YAMLError as exc:
+          print("=================> ERRO",exc)
+
+for f in sys.argv[1:]:
+	proc_yaml_file(f)
