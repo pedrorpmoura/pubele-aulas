@@ -3,9 +3,9 @@
 id: C067
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
+remetente: Alma Cunha de Miranda
 data: ...
-local_ori: ...
+local_ori: Rio de Janeiro, Brasil
 descrição: |
    ...
 files:
@@ -23,3 +23,12 @@ files:
   - C067.6v_e_7.Partitura_completa_1955.jpg
   - C067.6v.jpg
   - C067.5v.branco.jpg
+---
+id: C067.a1
+type: partitura
+destinatário: Eurico Tomás de Lima
+remetente: 
+data: ...
+local_ori: Rio de Janeiro, Brasil
+descrição: |
+   Choro

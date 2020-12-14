@@ -4,7 +4,7 @@ type: carta
 destinatário: Eurico Thomaz de Lima
 remetente: Miguel Jacobelly Rosa
 data: 30-10-65
-local_ori: lisboa, Rua Jorge Ferreira de(?)
+local_ori: Lisboa, Rua Jorge Ferreira de Vasconcelos(?)
 descrição: |
    O remetente desta carta felicita Eurico Thomaz de Lima pelo novo cargo de diretor de uma
    academia na madeira. Em consequência deste novo cargo diz-lhe que é normal que venha a
@@ -20,5 +20,4 @@ files:
   - C005.3v.jpg
   - C005.2v.jpg
 transc: Manuela
-
 ---
