@@ -1,16 +1,41 @@
-
 ---
 id: C012
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
+remetente: Bertha Veloso de Araújo
+data: 1965
 local_ori: ...
 descrição: |
-   ...
+   ao ... prezado amigo
+   sr eurico tomás de Lima
+   agradece ... sensibilidade
+   ... os seus bons desejos
 files:
   - C012.1v.envelope.jpg
   - C012.2v.jpg
   - C012.2.jpg
   - C012.yaml
   - C012.1.envelope.jpg
+transc: Carla Rodrigues
+---
+type: ilustração
+descrição: |
+   D.Jeronymo de Athayde, D.Francisco
+transc: Carla Rodrigues
+
+---
+id: C012
+type: carta
+destinatário: Eurico Tomás de Lima
+remetente: Direção da Academia de Música e Belas-Artes da Madeira
+data: 27-12-1965
+local_ori: Funchal, Madeira
+descrição: Agradecimento e retribuição de bons desejos
+transc: Tânia Alexandra
+files:
+  - C012.1.envelope.jpg
+  - C012.1v.envelope.jpg
+  - C012.2.jpg
+  - C012.2v.jpg
+  - C012.yaml
+---

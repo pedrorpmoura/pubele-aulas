@@ -1,18 +1,24 @@
-
 ---
 id: C005
 type: carta
-destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
+destinatário: Eurico Thomaz de Lima
+remetente: Miguel Jacobelly Rosa
+data: 30-10-65
+local_ori: lisboa, Rua Jorge Ferreira de(?)
 descrição: |
-   ...
+   O remetente desta carta felicita Eurico Thomaz de Lima pelo novo cargo de diretor de uma
+   academia na madeira. Em consequência deste novo cargo diz-lhe que é normal que venha a
+   sentir uma certa nostalgia da cidade de Lisboa mas que não está longe do continente e poderá
+   ter visitas da família ou ser ele mesmo a viajar. Na despedida, Miguel Rosa deseja-lhe
+   saúde e as maiores felicidades no seu novo cargo.
 files:
-  - C005.2v.jpg
-  - C005.3v.jpg
   - C005.1.envelope.jpg
-  - C005.2.jpg
   - C005.yaml
-  - C005.1v.envelope.jpg
+  - C005.2.jpg
   - C005.3.jpg
+  - C005.1v.envelope.jpg
+  - C005.3v.jpg
+  - C005.2v.jpg
+transc: Manuela
+
+---

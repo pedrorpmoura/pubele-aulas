@@ -1,15 +1,20 @@
-
 ---
 id: C003
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
+remetente: Rua Frederico Eyer, 141, Gávea
+data: 25/10/1965
+local_ori: Rio de Janeiro, Brasil
 descrição: |
-   ...
+   Tomás. Quem está de parabéns por ter à frente de
+   sua direção tão ilustre artista é a Escola de Música e Belas
+   Artes de MAdeira. Todavia, desejo que você seja compreendido
+   e que seus esforços sejam coroados de grande sucesso.
+   Saúde, paz e Amor.
 files:
   - C003.yaml
   - C003.2.jpg
   - C003.1v.envelope.jpg
   - C003.1.envelope.jpg
+transc: Beatriz Cepa
+---
