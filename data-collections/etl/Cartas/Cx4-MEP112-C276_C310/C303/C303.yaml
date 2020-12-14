@@ -1,16 +1,19 @@
-
 ---
 id: C303
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
+remetente: Mem. Martins
+data: 1932-7-8
+local_ori: Porto
 descrição: |
-   ...
+   festas de S.João e
+   S.Pedro
+   ...em Braga
 files:
   - C303-1v.jpg
   - C303-1r.jpg
   - C303-2v.jpg
   - C303-2r.jpg
   - C303.yaml
+transc: Joana Beatriz Freitas
+---
