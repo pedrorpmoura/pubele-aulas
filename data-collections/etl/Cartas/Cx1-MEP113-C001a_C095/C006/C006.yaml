@@ -1,13 +1,12 @@
-
 ---
 id: C006
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
+remetente: ?? (não percetivel)
+data: 02-11-1965
+local_ori: Rua da Boavista, 339 1ºEsq Porto
 descrição: |
-   ...
+   Congratulo-me imenso com a recepção auspiciosa que lhe dispensaram...
 files:
   - C006.2.jpg
   - C006.3.jpg
@@ -16,3 +15,5 @@ files:
   - C006.2v.jpg
   - C006.1v.envelope.jpg
   - C006.3v.jpg
+transc: Paulo Alves
+---

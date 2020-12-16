@@ -1,12 +1,11 @@
-
 ---
 id: C302
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
-descrição: |
+remetente: Filho de Eurico Tomás de Lima
+data: 30-06-1932
+local_ori: Porto
+descrição: Carta pessoal de Eurico a seu filho onde relata momentos do seu dia a dia.
    ...
 files:
   - C302-3v.jpg
@@ -16,3 +15,5 @@ files:
   - C302-3r.jpg
   - C302-1r.jpg
   - C302-1v.jpg
+transc: Helena Faria
+---

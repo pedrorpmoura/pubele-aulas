@@ -1,16 +1,21 @@
-
 ---
-id: C004
 type: carta
 destinatário: Eurico Tomás de Lima
-remetente: ...
-data: ...
-local_ori: ...
+remetente: Bertha V.(?) de Araújo
+data: 1965-10-28
+local_ori: Quinta de Vilar, Vila Nova de Famalicão
 descrição: |
-   ...
+   As suas agradáveis notícias que agradecemos foram recebidas com grande júbilo pelo nosso coração amigo...
 files:
-  - C004.yaml
   - C004.1.envelope.jpg
   - C004.2.jpg
   - C004.1v.envelope.jpg
   - C004.2v.jpg
+transc: Beatriz Soares
+---
+type: ilustração
+descrição: |
+   O Alfageme de Santarem. (Ato II. Scena III)- Garrett. Ilustração de Eduardo Moura.
+infoto:
+   Nun' Alvares e o Alfageme
+---
