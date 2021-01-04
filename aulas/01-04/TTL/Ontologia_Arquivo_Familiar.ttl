@@ -1,0 +1,668 @@
+@prefix : <http://www.semanticweb.org/nancygonçalves/ontologies/2019/ontologia_arquivo_familiar#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/nancygonçalves/ontologies/2019/ontologia_arquivo_familiar> a owl:Ontology .
+
+:Afilhada_de a owl:ObjectProperty .
+
+:Apelido a owl:DatatypeProperty .
+
+:Avó_Materna_de a owl:ObjectProperty .
+
+:Avó_Paterna_de a owl:ObjectProperty .
+
+:Avô_Materno_de a owl:ObjectProperty .
+
+:Avô_Paterno_de a owl:ObjectProperty .
+
+:Bisavó_de a owl:ObjectProperty .
+
+:Bisavô_de a owl:ObjectProperty .
+
+:Bisneta_de a owl:ObjectProperty .
+
+:Contexto a owl:DatatypeProperty .
+
+:Convite_de_casamento a :Convite,
+        owl:NamedIndividual ;
+    :Contexto "Matrimónio de Alexandra e Tiago" ;
+    :Data "04/09/2020" ;
+    :Enviado_por :Alexandra,
+        :Tiago ;
+    :Recebido_por :Nancy .
+
+:Cunhada_de a owl:ObjectProperty .
+
+:Cunhado_de a owl:ObjectProperty .
+
+:Data a owl:DatatypeProperty .
+
+:Data_de_Nascimento a owl:DatatypeProperty .
+
+:Enviado_por a owl:ObjectProperty .
+
+:Esposa_de a owl:ObjectProperty .
+
+:Faleceu_em a owl:DatatypeProperty .
+
+:Filha_de a owl:ObjectProperty .
+
+:Filho_de a owl:ObjectProperty .
+
+:Genro_de a owl:ObjectProperty .
+
+:Irmã_de a owl:ObjectProperty .
+
+:Irmão_de a owl:ObjectProperty .
+
+:Madrinha_de a owl:ObjectProperty .
+
+:Marido_de a owl:ObjectProperty .
+
+:Mãe_de a owl:ObjectProperty .
+
+:Nascida_em a owl:ObjectProperty .
+
+:Nascido_em a owl:ObjectProperty .
+
+:Neta_de a owl:ObjectProperty .
+
+:Neto_de a owl:ObjectProperty .
+
+:Noiva_de a owl:ObjectProperty .
+
+:Noivo_de a owl:ObjectProperty .
+
+:Nora_de a owl:ObjectProperty .
+
+:Pai_de a owl:ObjectProperty .
+
+:Postal_de_Natal a :Postal,
+        owl:NamedIndividual ;
+    :Contexto "Postal a desejar um feliz natal" ;
+    :Enviado_por :John,
+        :Joshua,
+        :Lucia,
+        :Natasha ;
+    :Recebido_por :Ashley,
+        :Nancy,
+        :Paulo .
+
+:Presente_em a owl:ObjectProperty .
+
+:Prima_de a owl:ObjectProperty .
+
+:Primo_de a owl:ObjectProperty .
+
+:Recebido_por a owl:ObjectProperty .
+
+:Reside_em a owl:ObjectProperty .
+
+:Sobrinha_de a owl:ObjectProperty .
+
+:Sobrinho_de a owl:ObjectProperty .
+
+:Sogra_de a owl:ObjectProperty .
+
+:Sogro_de a owl:ObjectProperty .
+
+:Tia_de a owl:ObjectProperty .
+
+:Tio_de a owl:ObjectProperty .
+
+:Colagem a owl:Class ;
+    rdfs:subClassOf :Fotografia .
+
+:Convite a owl:Class ;
+    rdfs:subClassOf :Catálogo_Familiar .
+
+:Fotografia_11 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia da cidade de Toronto" .
+
+:Local a owl:Class ;
+    rdfs:subClassOf :Catálogo_Familiar .
+
+:Postal a owl:Class ;
+    rdfs:subClassOf :Catálogo_Familiar .
+
+:Alexandra a :Mulher,
+        owl:NamedIndividual ;
+    :Noiva_de :Tiago ;
+    :Reside_em :Vila_verde .
+
+:Fotografia_1 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia de Fernando e Maria juntos" .
+
+:Fotografia_12 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia de Lucia e John na cidade de Toronto" ;
+    :Data "18/08/2019" .
+
+:Fotografia_14 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia tirada em Vila verde de Armanda e Guilherme" .
+
+:Fotografia_2 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia na casa dos avós paternos, de Adelina e Ilidio" .
+
+:Fotografia_3 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia tirada em Toronto do Casamento Rosa e João" ;
+    :Data "17/05/1997" .
+
+:Pessoa a owl:Class ;
+    rdfs:subClassOf :Catálogo_Familiar .
+
+:Fotografia_10 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia tirada na Festa Finalista da Nancy na Universidade com o irmão Paulo e irmã Ashley" ;
+    :Data "18/05/2019" .
+
+:Fotografia_4 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia tirada em Vila Verde, de Nancy, Paulo e Ashley" ;
+    :Data "04/04/2017" .
+
+:Cidade a owl:Class ;
+    rdfs:subClassOf :Local .
+
+:Fotografia_9 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia da Tradição da família da apanha da cereja" .
+
+:Viseu a :Cidade,
+        owl:NamedIndividual .
+
+:Catálogo_Familiar a owl:Class .
+
+:Colagem_de_família a :Colagem,
+        owl:NamedIndividual .
+
+:Fotografia_13 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia da partida definitiva para Portugal de Nancy, Paulo, Ashley, Rosa, João" ;
+    :Data "06/06/2011" .
+
+:Fotografia_5 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia da profissão solene do Paulo com a família, Nancy, Ashley, João e Rosa" ;
+    :Data "21/05/2015" .
+
+:Braga a :Cidade,
+        owl:NamedIndividual .
+
+:Fernando a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Amaral" ;
+    :Avô_Materno_de :Ashley,
+        :Joshua,
+        :Nancy,
+        :Natasha,
+        :Paulo ;
+    :Faleceu_em 2018 ;
+    :Marido_de :Maria ;
+    :Nascido_em :Viseu ;
+    :Pai_de :Lucia,
+        :Rosa ;
+    :Presente_em :Fotografia_1 ;
+    :Sogro_de :John,
+        :João .
+
+:Fotografia_7 a :Fotografia,
+        owl:NamedIndividual ;
+    :Contexto "Fotografia tirada na Festa Finalista da Nancy na Universidade com a família Gonçalves" ;
+    :Data "18/05/2019" .
+
+:Homem a owl:Class ;
+    rdfs:subClassOf :Pessoa .
+
+:Maria a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Amaral" ;
+    :Avó_Materna_de :Ashley,
+        :Joshua,
+        :Nancy,
+        :Natasha,
+        :Paulo ;
+    :Esposa_de :Fernando ;
+    :Faleceu_em 2019 ;
+    :Mãe_de :Lucia,
+        :Rosa ;
+    :Nascida_em :Viseu ;
+    :Presente_em :Fotografia_1 ;
+    :Sogra_de :John,
+        :João .
+
+:Toronto a :Cidade,
+        owl:NamedIndividual ;
+    :Presente_em :Fotografia_11 .
+
+:John a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Caetano" ;
+    :Cunhado_de :João,
+        :Rosa ;
+    :Genro_de :Fernando,
+        :Maria ;
+    :Marido_de :Lucia ;
+    :Pai_de :Joshua,
+        :Natasha ;
+    :Presente_em :Fotografia_12 ;
+    :Reside_em :Toronto ;
+    :Tio_de :Ashley,
+        :Nancy,
+        :Paulo .
+
+:Joshua a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Caetano" ;
+    :Data_de_Nascimento "19/04/2003" ;
+    :Filho_de :John,
+        :Lucia ;
+    :Irmão_de :Natasha ;
+    :Nascido_em :Toronto ;
+    :Neto_de :Fernando,
+        :Maria ;
+    :Primo_de :Ashley,
+        :Nancy,
+        :Paulo ;
+    :Reside_em :Toronto ;
+    :Sobrinho_de :João,
+        :Rosa .
+
+:Lucia a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Amaral" ;
+    :Cunhada_de :João ;
+    :Esposa_de :John ;
+    :Filha_de :Fernando,
+        :Maria ;
+    :Irmã_de :Rosa ;
+    :Madrinha_de :Nancy ;
+    :Mãe_de :Joshua,
+        :Natasha ;
+    :Nascida_em :Viseu ;
+    :Presente_em :Fotografia_12 ;
+    :Reside_em :Toronto ;
+    :Tia_de :Ashley,
+        :Paulo .
+
+:Mulher a owl:Class ;
+    rdfs:subClassOf :Pessoa .
+
+:Natasha a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "16/07/2010",
+        "Caetano" ;
+    :Filha_de :John,
+        :Lucia ;
+    :Irmã_de :Joshua ;
+    :Nascida_em :Toronto ;
+    :Neta_de :Fernando,
+        :Maria ;
+    :Prima_de :Ashley,
+        :Nancy,
+        :Paulo ;
+    :Reside_em :Toronto ;
+    :Sobrinha_de :João,
+        :Rosa .
+
+:Adelina a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Avó_Paterna_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Ricardo,
+        :Tiago ;
+    :Bisavó_de :Leonor ;
+    :Esposa_de :Ilidio ;
+    :Faleceu_em 2015 ;
+    :Mãe_de :Guilherme,
+        :João,
+        :Ni ;
+    :Nascida_em :Braga ;
+    :Presente_em :Fotografia_2 ;
+    :Sogra_de :Alice,
+        :Armanda,
+        :Rosa .
+
+:Alice a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Monteiro" ;
+    :Cunhada_de :Armanda,
+        :Guilherme,
+        :João,
+        :Rosa ;
+    :Esposa_de :Ni ;
+    :Mãe_de :Tiago ;
+    :Nascida_em :Braga ;
+    :Nora_de :Adelina,
+        :Ilidio ;
+    :Presente_em :Fotografia_7 ;
+    :Reside_em :Vila_verde ;
+    :Tia_de :Ashley,
+        :Leonor,
+        :Nancy,
+        :Paulo,
+        :Ricardo .
+
+:Armanda a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Avó_Paterna_de :Leonor ;
+    :Cunhada_de :Alice,
+        :João,
+        :Ni,
+        :Rosa ;
+    :Data_de_Nascimento "24/06/1951" ;
+    :Esposa_de :Guilherme ;
+    :Mãe_de :Ricardo ;
+    :Nascida_em :Braga ;
+    :Nora_de :Adelina,
+        :Ilidio ;
+    :Presente_em :Fotografia_14,
+        :Fotografia_7 ;
+    :Reside_em :Vila_verde ;
+    :Tia_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Tiago .
+
+:Fotografia a owl:Class ;
+    rdfs:subClassOf :Catálogo_Familiar .
+
+:Guilherme a :Homem,
+        owl:NamedIndividual ;
+    :Avô_Paterno_de :Leonor ;
+    :Cunhado_de :Alice,
+        :Rosa ;
+    :Data_de_Nascimento 1951 ;
+    :Faleceu_em 2015 ;
+    :Filho_de :Adelina,
+        :Ilidio ;
+    :Irmão_de :João,
+        :Ni ;
+    :Marido_de :Armanda ;
+    :Nascido_em :Vila_verde ;
+    :Pai_de :Ricardo ;
+    :Presente_em :Fotografia_14 ;
+    :Tio_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Tiago .
+
+:Ilidio a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Avô_Paterno_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Ricardo,
+        :Tiago ;
+    :Bisavô_de :Leonor ;
+    :Faleceu_em 2014 ;
+    :Marido_de :Adelina ;
+    :Nascido_em :Braga ;
+    :Pai_de :Guilherme,
+        :João,
+        :Ni ;
+    :Presente_em :Fotografia_2 ;
+    :Sogro_de :Alice,
+        :Armanda,
+        :Rosa .
+
+:Leonor a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Bisneta_de :Adelina,
+        :Ilidio ;
+    :Data_de_Nascimento "21/06/2018" ;
+    :Filha_de :Ricardo ;
+    :Nascida_em :Braga ;
+    :Neta_de :Armanda,
+        :Guilherme ;
+    :Presente_em :Fotografia_7 ;
+    :Prima_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Tiago ;
+    :Reside_em :Vila_verde ;
+    :Sobrinha_de :Alice,
+        :João,
+        :Ni,
+        :Rosa .
+
+:Ni a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Cunhado_de :Armanda,
+        :Rosa ;
+    :Data_de_Nascimento "06/04/1968" ;
+    :Filho_de :Adelina,
+        :Ilidio ;
+    :Irmão_de :Guilherme,
+        :João ;
+    :Marido_de :Alice ;
+    :Nascido_em :Vila_verde ;
+    :Pai_de :Tiago ;
+    :Presente_em :Fotografia_7 ;
+    :Reside_em :Vila_verde ;
+    :Tio_de :Ashley,
+        :Leonor,
+        :Nancy,
+        :Paulo,
+        :Ricardo .
+
+:Ricardo a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Data_de_Nascimento "02/07/1985" ;
+    :Filho_de :Armanda,
+        :Guilherme ;
+    :Nascido_em :Braga ;
+    :Neto_de :Adelina,
+        :Ilidio ;
+    :Pai_de :Leonor ;
+    :Presente_em :Fotografia_7 ;
+    :Primo_de :Ashley,
+        :Nancy,
+        :Paulo,
+        :Tiago ;
+    :Reside_em :Vila_verde ;
+    :Sobrinho_de :Alice,
+        :João,
+        :Ni,
+        :Rosa .
+
+:Vila_verde a :Cidade,
+        owl:NamedIndividual .
+
+:Tiago a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Filho_de :Alice,
+        :Ni ;
+    :Neto_de :Adelina,
+        :Ilidio ;
+    :Noivo_de :Alexandra ;
+    :Primo_de :Ashley,
+        :Leonor,
+        :Nancy,
+        :Paulo,
+        :Ricardo ;
+    :Reside_em :Vila_verde ;
+    :Sobrinho_de :Armanda,
+        :Guilherme,
+        :João,
+        :Rosa .
+
+:João a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Cunhado_de :Alice,
+        :Armanda,
+        :John,
+        :Lucia ;
+    :Data_de_Nascimento "04/04/1970" ;
+    :Filho_de :Adelina,
+        :Ilidio ;
+    :Genro_de :Fernando,
+        :Maria ;
+    :Irmão_de :Guilherme,
+        :Ni ;
+    :Marido_de :Rosa ;
+    :Nascido_em :Braga ;
+    :Pai_de :Ashley,
+        :Nancy,
+        :Paulo ;
+    :Presente_em :Colagem_de_família,
+        :Fotografia_13,
+        :Fotografia_3,
+        :Fotografia_5,
+        :Fotografia_7,
+        :Fotografia_9 ;
+    :Reside_em :Toronto ;
+    :Tio_de :Joshua,
+        :Leonor,
+        :Natasha,
+        :Ricardo,
+        :Tiago .
+
+:Rosa a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Cunhada_de :Alice,
+        :Armanda,
+        :Guilherme,
+        :John,
+        :Ni ;
+    :Data_de_Nascimento "19/06/1973" ;
+    :Esposa_de :João ;
+    :Filha_de :Fernando,
+        :Maria ;
+    :Irmã_de :Lucia ;
+    :Mãe_de :Ashley,
+        :Nancy,
+        :Paulo ;
+    :Nascida_em :Viseu ;
+    :Nora_de :Adelina,
+        :Ilidio ;
+    :Presente_em :Colagem_de_família,
+        :Fotografia_13,
+        :Fotografia_3,
+        :Fotografia_5,
+        :Fotografia_7 ;
+    :Reside_em :Vila_verde ;
+    :Tia_de :Joshua,
+        :Leonor,
+        :Natasha,
+        :Ricardo,
+        :Tiago .
+
+:Ashley a :Mulher,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Data_de_Nascimento "05/09/2001" ;
+    :Filha_de :João,
+        :Rosa ;
+    :Irmã_de :Nancy,
+        :Paulo ;
+    :Nascida_em :Toronto ;
+    :Neta_de :Adelina,
+        :Fernando,
+        :Ilidio,
+        :Maria ;
+    :Presente_em :Colagem_de_família,
+        :Fotografia_10,
+        :Fotografia_13,
+        :Fotografia_4,
+        :Fotografia_5,
+        :Fotografia_7,
+        :Fotografia_9 ;
+    :Prima_de :Joshua,
+        :Leonor,
+        :Natasha,
+        :Ricardo,
+        :Tiago ;
+    :Reside_em :Vila_verde ;
+    :Sobrinha_de :Alice,
+        :Armanda,
+        :Guilherme,
+        :John,
+        :Lucia,
+        :Ni .
+
+:Paulo a :Homem,
+        owl:NamedIndividual ;
+    :Apelido "Gonçalves" ;
+    :Data_de_Nascimento "28/11/2005" ;
+    :Filho_de :João,
+        :Rosa ;
+    :Irmão_de :Ashley,
+        :Nancy ;
+    :Nascido_em :Toronto ;
+    :Neto_de :Adelina,
+        :Fernando,
+        :Ilidio,
+        :Maria ;
+    :Presente_em :Colagem_de_família,
+        :Fotografia_10,
+        :Fotografia_13,
+        :Fotografia_4,
+        :Fotografia_5,
+        :Fotografia_7,
+        :Fotografia_9 ;
+    :Primo_de :Joshua,
+        :Leonor,
+        :Natasha,
+        :Ricardo,
+        :Tiago ;
+    :Reside_em :Vila_verde ;
+    :Sobrinho_de :Alice,
+        :Armanda,
+        :Guilherme,
+        :John,
+        :Lucia,
+        :Ni .
+
+:Nancy a :Mulher,
+        owl:NamedIndividual ;
+    :Afilhada_de :Lucia ;
+    :Apelido "Gonçalves" ;
+    :Data_de_Nascimento "24/01/1998" ;
+    :Filha_de :João,
+        :Rosa ;
+    :Irmã_de :Ashley,
+        :Paulo ;
+    :Nascida_em :Toronto ;
+    :Neta_de :Adelina,
+        :Fernando,
+        :Ilidio,
+        :Maria ;
+    :Presente_em :Colagem_de_família,
+        :Fotografia_10,
+        :Fotografia_13,
+        :Fotografia_4,
+        :Fotografia_5,
+        :Fotografia_7,
+        :Fotografia_9 ;
+    :Prima_de :Joshua,
+        :Leonor,
+        :Natasha,
+        :Ricardo,
+        :Tiago ;
+    :Reside_em :Vila_verde ;
+    :Sobrinha_de :Alice,
+        :Armanda,
+        :Guilherme,
+        :John,
+        :Ni .
+

@@ -1,0 +1,14 @@
+Cartas
+   -> metadados + trancrição + ...
+
+Musica
+   -> musica
+         metadados
+           linha em branco
+         <abc> 
+         partitura 
+         </abc>
+         poema
+         acordes de viola
+
+FORMATO=DSL

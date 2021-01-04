@@ -1,0 +1,50 @@
+#!/usr/bin/env  python3
+
+from jjcli import *      
+c=clfilter(opt="m") 
+
+def gera_musica(metad, txt):
+    for p in findall(r"<abc>(.*?)</abc>",txt,flags=re.S):
+        p = sub(r'X\s*:\s*1',f'X:1\nT:{metad["title"]}',p)
+        print(p)
+
+def gera_poema(metad, txt):
+    poema = sub(r".*?\n\n(.*)",r"\1",txt,flags=re.S)
+    poema = sub(r"<abc>.*?</abc>","",poema,flags=re.S)
+    poema = sub(r"_","",poema,flags=re.S)
+    poema = sub(r"  .*","",poema)
+    print(poema,"\n-----\n")
+                   
+for txt in c.slurp():
+    meta = sub(r"\n\n.*","",txt,flags=re.S)
+    metad = dict( findall(r'(\w+):[\s*=]*(.*)',meta))
+    if "-m" in c.opt:
+        gera_musica(metad,txt)
+    else:
+        gera_poema(metad,txt)
+
+"""
+title: * A Morte saiu à rua
+author: Zeca Afonso
+
+A _morte saiu à _rua num _dia as_sima            Am C G Am
+Naquele lugar sem _nome pra _qualquer _fim          C G Am
+Um_a gota rubra _sobre a calçada _cai              Am C  F
+E um _rio de sangue _dum peito _aberto _sai      Dm C G Am
+
+O vento que dá nas canas do canavial
+E a foice duma ceifeira de Portugal
+E o som da bigorna como um clarim do céu
+Vão dizendo em toda a parte o pintor morreu
+
+Teu sangue, Pintor, reclama outra morte igual
+Só olho por olho e dente por dente vale
+À lei assassina à morte que te matou
+Teu corpo pertence à terra que te abraçou
+
+Aqui te afirmamos dente por dente assim 
+Que um dia rirá melhor quem rirá por fim
+Na curva da estrada há covas feitas no chão
+E em todas florirão rosas duma nação
+   
+"""
