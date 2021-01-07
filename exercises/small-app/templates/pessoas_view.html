@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head%}
+<title>{{title}}</title>
+{% endblock %}
+
+
+{% block body%}
+<h1>{{title}}</h1>
+<ul>
+    {% for p in pessoas: %}
+        <li><a href="/pessoas/{{p.numero}}">{{p.nome}}</a></li>
+    {% endfor %}
+</ul>
+
+<hr>
+<h3>Adicionar pessoa</h3>
+<form action="pessoas" method='post'>
+    <label>Número</label><br>
+    <input type="text" name="numero"><br>
+    <label>Nome</label><br>
+    <input type="text" name="nome"><br>
+    <label>Idade</label><br>
+    <input type="number" name="idade"><br>
+    <label>Sexo</label><br>
+    <select>
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+    </select><br>
+    <label>Curso</label><br>
+    <input type="text" name="curso"><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock %}

@@ -1,4 +1,6 @@
 from flask import Flask, render_template
+import json
+import requests
 
 import random
 
@@ -12,9 +14,15 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/api/proverbios')
+def proverbios_api():
+    return json.dumps(proverbios)
+
 @app.route('/proverbios')
 def proverbios_view():
-    return render_template('proverbios_view.html', title='Proverbios', proverbios=proverbios)
+    res = requests.get('http://localhost:5000/api/proverbios')
+    ps = json.loads(res.content)
+    return render_template('proverbios_view.html', title='Proverbios', proverbios=ps)
 
 
 @app.route('/proverbios/proverbio/<id_>')

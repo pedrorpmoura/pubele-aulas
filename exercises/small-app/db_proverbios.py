@@ -1,7 +1,6 @@
 import shelve
 
 
-
 def find_all():
     with shelve.open('proverbios.db') as s:
         return list(s.keys())

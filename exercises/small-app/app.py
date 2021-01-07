@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect
 import requests
 import json
 
-import db
+import db_proverbios
 
 app = Flask(__name__)
 
@@ -17,6 +17,7 @@ def index():
 def get_proverbios():
     res = requests.get('http://localhost:5000/api/proverbios')
     ps = json.loads(res.content)
+    print(ps)
 
     return render_template('proverbios_view.html', proverbios=ps)
 
@@ -46,7 +47,7 @@ def get_proverbio(proverbio):
 # API
 @app.route('/api/proverbios', methods=['GET'])
 def api_get_proverbios():
-    ps = db.find_all()
+    ps = db_proverbios.find_all()
     return json.dumps(ps)
 
 
@@ -54,14 +55,104 @@ def api_get_proverbios():
 def api_post_proverbio():
     
     data = dict(request.form)
-    db.insert(data)
+    db_proverbios.insert(data)
 
-    return json.dumps(db.find_all())
+    return json.dumps(db_proverbios.find_all())
 
 
 @app.route('/api/proverbios/<proverbio>', methods=['GET'])
 def api_get_proverbio(proverbio):
-    p = db.find_one(proverbio)
+    p = db_proverbios.find_one(proverbio)
     return json.dumps(p)
+
+
+
+"""
+{numero}: {
+    "nome": {nome},
+    "idade": {idade},
+    "sexo": {sexo},
+    "curso": {curso}
+}
+
+"""
+
+
+
+
+pessoas = {
+    "pg41094": {
+        "nome": "Pedro",
+        "idade": 22,
+        "sexo": "Masculino",
+        "curso": "MEI"
+    },
+    "a88888": {
+        "nome": "Sara",
+        "idade": 22,
+        "sexo": "Feminino",
+        "curso": "Nutrição"
+    }
+}
+
+# ==>
+
+pessoasl = [
+    { "numero": "pg41094", "nome": "Pedro"},
+    { "numero": "a88888" , "nome": "Sara" }
+]
+
+# Pessoas
+@app.route('/pessoas', methods=['GET'])
+def get_pessoas():
+
+    res = requests.get('http://localhost:5000/api/pessoas')
+    ps = json.loads(res.content)
+    return render_template('pessoas_view.html', title='Pessoas', pessoas=ps)
+
+
+@app.route('/pessoas/<numero>', methods=['GET'])
+def get_pessoa(numero):
+
+    res = requests.get('http://localhost:5000/api/pessoas/%s' % numero)
+    p = json.loads(res.content)
+    return render_template('pessoa_view.html', pessoa=p)
+
+
+
+import db_pessoas
+
+# API
+@app.route('/api/pessoas', methods=['GET'])
+def api_get_pessoas():
+
+    ps = db_pessoas.find_all()
+
+    return json.dumps(ps)
+
+
+
+@app.route('/api/pessoas/<numero>', methods=['GET'])
+def api_get_pessoa(numero):
+
+    d = pessoas[numero]
+    d['numero'] = numero
+    
+    return json.dumps(d)
+
+
+@app.route('/api/pessoas', methods=['POST'])
+def api_post_pessoa():
+
+    data = dict(request.form)
+    db_pessoas.insert(data)
+
+    return data
+
+
+
+
+
+
 
 
